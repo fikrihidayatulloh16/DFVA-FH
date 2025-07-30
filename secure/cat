@@ -1,0 +1,1 @@
+cat ~/.docker/config.json

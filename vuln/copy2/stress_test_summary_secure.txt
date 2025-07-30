@@ -1,0 +1,9 @@
+Waktu Mulai          : 2025-07-02 08:31:39
+Waktu Selesai        : 2025-07-02 08:33:38
+Jumlah Request       : 100
+Request Berhasil     : 86
+Request Gagal        : 14
+Durasi Eksperimen    : 119.65 detik
+Rata-rata Response   : 995.87 ms
+Throughput API       : 0.72 req/detik
+--------------------------------------------

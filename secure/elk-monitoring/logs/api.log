@@ -1,0 +1,11 @@
+import logging
+
+api_logger = logging.getLogger("api_logger")
+api_logger.setLevel(logging.INFO)
+
+handler = logging.FileHandler("logs/api.log")
+formatter = logging.Formatter(
+    "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+)
+handler.setFormatter(formatter)
+api_logger.addHandler(handler)

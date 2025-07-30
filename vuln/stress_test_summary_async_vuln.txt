@@ -1,0 +1,260 @@
+Waktu Mulai          : 2025-07-09 14:35:26
+Waktu Selesai        : 2025-07-09 14:38:54
+Jumlah Virtual User  : 1000
+Durasi Eksperimen    : 206.26 detik
+Total Request        : 48795
+Request Berhasil     : 16605
+Request Gagal        : 32190
+Rata-rata Response   : 1176.56 ms
+Throughput API       : 80.50 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 14:27:12
+Waktu Selesai        : 2025-07-09 14:30:41
+Jumlah Virtual User  : 600
+Durasi Eksperimen    : 207.42 detik
+Total Request        : 39837
+Request Berhasil     : 21467
+Request Gagal        : 18370
+Rata-rata Response   : 1101.63 ms
+Throughput API       : 103.49 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 14:12:36
+Waktu Selesai        : 2025-07-09 14:16:02
+Jumlah Virtual User  : 1000
+Durasi Eksperimen    : 205.77 detik
+Total Request        : 54294
+Request Berhasil     : 24474
+Request Gagal        : 29820
+Rata-rata Response   : 1057.81 ms
+Throughput API       : 118.94 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 14:06:10
+Waktu Selesai        : 2025-07-09 14:09:37
+Jumlah Virtual User  : 600
+Durasi Eksperimen    : 205.89 detik
+Total Request        : 40963
+Request Berhasil     : 24618
+Request Gagal        : 16345
+Rata-rata Response   : 1014.54 ms
+Throughput API       : 119.57 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 13:58:10
+Waktu Selesai        : 2025-07-09 14:01:34
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 203.66 detik
+Total Request        : 27925
+Request Berhasil     : 25143
+Request Gagal        : 2782
+Rata-rata Response   : 975.11 ms
+Throughput API       : 123.45 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 13:50:27
+Waktu Selesai        : 2025-07-09 13:53:54
+Jumlah Virtual User  : 1000
+Durasi Eksperimen    : 206.20 detik
+Total Request        : 55149
+Request Berhasil     : 25086
+Request Gagal        : 30063
+Rata-rata Response   : 975.08 ms
+Throughput API       : 121.66 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 13:44:40
+Waktu Selesai        : 2025-07-09 13:48:06
+Jumlah Virtual User  : 600
+Durasi Eksperimen    : 205.55 detik
+Total Request        : 40724
+Request Berhasil     : 24296
+Request Gagal        : 16428
+Rata-rata Response   : 1013.04 ms
+Throughput API       : 118.20 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 13:37:52
+Waktu Selesai        : 2025-07-09 13:41:17
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 204.60 detik
+Total Request        : 26678
+Request Berhasil     : 23680
+Request Gagal        : 2998
+Rata-rata Response   : 986.66 ms
+Throughput API       : 115.74 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 13:27:59
+Waktu Selesai        : 2025-07-09 13:31:24
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 204.89 detik
+Total Request        : 26673
+Request Berhasil     : 23642
+Request Gagal        : 3031
+Rata-rata Response   : 990.30 ms
+Throughput API       : 115.39 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 13:22:28
+Waktu Selesai        : 2025-07-09 13:25:54
+Jumlah Virtual User  : 600
+Durasi Eksperimen    : 205.65 detik
+Total Request        : 39773
+Request Berhasil     : 23536
+Request Gagal        : 16237
+Rata-rata Response   : 1086.29 ms
+Throughput API       : 114.45 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 13:15:34
+Waktu Selesai        : 2025-07-09 13:19:00
+Jumlah Virtual User  : 1000
+Durasi Eksperimen    : 205.90 detik
+Total Request        : 55244
+Request Berhasil     : 25345
+Request Gagal        : 29899
+Rata-rata Response   : 998.60 ms
+Throughput API       : 123.09 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 11:51:07
+Waktu Selesai        : 2025-07-09 11:54:33
+Jumlah Virtual User  : 1000
+Durasi Eksperimen    : 205.38 detik
+Total Request        : 56094
+Request Berhasil     : 26585
+Request Gagal        : 29509
+Rata-rata Response   : 1071.96 ms
+Throughput API       : 129.44 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 11:43:08
+Waktu Selesai        : 2025-07-09 11:46:35
+Jumlah Virtual User  : 600
+Durasi Eksperimen    : 205.99 detik
+Total Request        : 42205
+Request Berhasil     : 26064
+Request Gagal        : 16141
+Rata-rata Response   : 1001.28 ms
+Throughput API       : 126.53 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 11:36:11
+Waktu Selesai        : 2025-07-09 11:39:40
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 205.97 detik
+Total Request        : 28812
+Request Berhasil     : 25183
+Request Gagal        : 3629
+Rata-rata Response   : 753.96 ms
+Throughput API       : 122.26 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 11:32:38
+Waktu Selesai        : 2025-07-09 11:33:01
+Jumlah Virtual User  : 100
+Durasi Eksperimen    : 23.16 detik
+Total Request        : 6124
+Request Berhasil     : 6112
+Request Gagal        : 12
+Rata-rata Response   : 322.16 ms
+Throughput API       : 263.87 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 10:08:31
+Waktu Selesai        : 2025-07-09 10:11:57
+Jumlah Virtual User  : 1000
+Durasi Eksperimen    : 206.12 detik
+Total Request        : 49812
+Request Berhasil     : 19491
+Request Gagal        : 30321
+Rata-rata Response   : 1191.65 ms
+Throughput API       : 94.56 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 10:02:31
+Waktu Selesai        : 2025-07-09 10:06:11
+Jumlah Virtual User  : 600
+Durasi Eksperimen    : 210.40 detik
+Total Request        : 37049
+Request Berhasil     : 19457
+Request Gagal        : 17592
+Rata-rata Response   : 1167.54 ms
+Throughput API       : 92.48 req/detik
+
+Waktu Mulai          : 2025-07-09 09:14:20
+Waktu Selesai        : 2025-07-09 09:18:06
+Jumlah Virtual User  : 400
+Durasi Eksperimen    : 222.03 detik
+Total Request        : 33124
+Request Berhasil     : 21686
+Request Gagal        : 11438
+Rata-rata Response   : 1044.19 ms
+Throughput API       : 97.67 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 09:08:32
+Waktu Selesai        : 2025-07-09 09:11:58
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 205.85 detik
+Total Request        : 26212
+Request Berhasil     : 21692
+Request Gagal        : 4520
+Rata-rata Response   : 1173.80 ms
+Throughput API       : 105.38 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 09:04:58
+Waktu Selesai        : 2025-07-09 09:05:24
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 24.64 detik
+Total Request        : 2965
+Request Berhasil     : 2453
+Request Gagal        : 512
+Rata-rata Response   : 1099.27 ms
+Throughput API       : 99.54 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 09:02:57
+Waktu Selesai        : 2025-07-09 09:03:21
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 23.73 detik
+Total Request        : 3020
+Request Berhasil     : 2543
+Request Gagal        : 477
+Rata-rata Response   : 1020.22 ms
+Throughput API       : 107.18 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 08:52:48
+Waktu Selesai        : 2025-07-09 08:53:13
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 25.07 detik
+Total Request        : 2948
+Request Berhasil     : 2580
+Request Gagal        : 368
+Rata-rata Response   : 1243.43 ms
+Throughput API       : 102.92 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 08:44:46
+Waktu Selesai        : 2025-07-09 08:45:11
+Jumlah Virtual User  : 200
+Durasi Eksperimen    : 24.98 detik
+Total Request        : 2701
+Request Berhasil     : 2291
+Request Gagal        : 410
+Rata-rata Response   : 1211.05 ms
+Throughput API       : 91.72 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 07:30:05
+Waktu Selesai        : 2025-07-09 07:30:30
+Jumlah Virtual User  : 100
+Durasi Eksperimen    : 25.14 detik
+Total Request        : 3012
+Request Berhasil     : 2667
+Request Gagal        : 345
+Rata-rata Response   : 647.71 ms
+Throughput API       : 106.08 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 07:24:21
+Waktu Selesai        : 2025-07-09 07:24:44
+Jumlah Virtual User  : 100
+Durasi Eksperimen    : 22.79 detik
+Total Request        : 3387
+Request Berhasil     : 0
+Request Gagal        : 3387
+Rata-rata Response   : 585.86 ms
+Throughput API       : 0.00 req/detik
+------------------------------------------------------------
+Waktu Mulai          : 2025-07-09 07:18:37
+Waktu Selesai        : 2025-07-09 07:19:01
+Jumlah Virtual User  : 100
+Durasi Eksperimen    : 24.17 detik
+Total Request        : 3120
+Request Berhasil     : 0
+Request Gagal        : 3120
+Rata-rata Response   : 640.10 ms
+Throughput API       : 0.00 req/detik
+------------------------------------------------------------

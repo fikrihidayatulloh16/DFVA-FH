@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Local env config
+.env
+
+# Flask instance folder - ignore all files inside but keep the folder
+instance/*
+!instance/.gitkeep
+
+# Editor files
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

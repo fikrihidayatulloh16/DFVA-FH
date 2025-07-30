@@ -1,0 +1,175 @@
+Waktu Mulai          : 2025-07-09 06:54:11
+Waktu Selesai        : 2025-07-09 06:54:33
+Durasi Eksperimen    : 21.32 detik
+Total Request Terkirim : 162
+Request Berhasil     : 150
+Request Gagal        : 12
+Rata-rata Response   : 117.94 ms
+Throughput API       : 7.04 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-07-09 06:25:29
+Waktu Selesai        : 2025-07-09 06:25:50
+Durasi Eksperimen    : 20.78 detik
+Total Request Terkirim : 104
+Request Berhasil     : 92
+Request Gagal        : 12
+Rata-rata Response   : 199.05 ms
+Throughput API       : 4.43 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-07-09 06:21:36
+Waktu Selesai        : 2025-07-09 06:21:56
+Durasi Eksperimen    : 20.04 detik
+Total Request Terkirim : 142
+Request Berhasil     : 126
+Request Gagal        : 16
+Rata-rata Response   : 138.72 ms
+Throughput API       : 6.29 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-07-09 06:18:35
+Waktu Selesai        : 2025-07-09 06:18:55
+Durasi Eksperimen    : 20.33 detik
+Total Request Terkirim : 84
+Request Berhasil     : 72
+Request Gagal        : 12
+Rata-rata Response   : 112.38 ms
+Throughput API       : 3.54 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-06-26 20:35:36
+Waktu Selesai        : 2025-06-26 20:36:44
+Jumlah Request       : 600
+Request Berhasil     : 547
+Request Gagal        : 53
+Durasi Eksperimen    : 68.58 detik
+Rata-rata Response   : 12.77 ms
+Throughput API       : 7.98 req/detik
+Rata-Rata CPU        : 13.6%
+Rata-rata Memory     : 35.6% 
+--------------------------------------------
+Waktu Mulai          : 2025-06-26 20:29:49
+Waktu Selesai        : 2025-06-26 20:30:35
+Jumlah Request       : 400
+Request Berhasil     : 360
+Request Gagal        : 40
+Durasi Eksperimen    : 46.52 detik
+Rata-rata Response   : 14.82 ms
+Throughput API       : 7.74 req/detik
+Rata-Rata CPU        : 12.4%
+Rata-rata Memory     : 35.7% 
+--------------------------------------------
+Waktu Mulai          : 2025-06-26 20:25:58
+Waktu Selesai        : 2025-06-26 20:26:21
+Jumlah Request       : 200
+Request Berhasil     : 187
+Request Gagal        : 13
+Durasi Eksperimen    : 23.42 detik
+Rata-rata Response   : 12.47 ms
+Throughput API       : 7.98 req/detik
+Rata-Rata CPU        : 9.27%
+Rata-rata Memory     : 35.7% 
+--------------------------------------------
+--------------ganti server------------------------------------------------------
+--------------------------------------------
+Waktu Mulai          : 2025-06-25 10:45:38
+Waktu Selesai        : 2025-06-25 10:46:44
+Jumlah Request       : 600
+Request Berhasil     : 555
+Request Gagal        : 45
+Durasi Eksperimen    : 65.57 detik
+Rata-rata Response   : 9.16 ms
+Throughput API       : 8.46 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-06-24 21:30:17
+Waktu Selesai        : 2025-06-24 21:31:23
+Jumlah Request       : 600
+Request Berhasil     : 600
+Request Gagal        : 0
+Durasi Eksperimen    : 65.74 detik
+Rata-rata Response   : 8.55 ms
+Throughput API       : 9.13 req/detik
+Rata-Rata CPU        : 5.85%
+Rata-rata Memory     : Mean: 89.7% 
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 20:57:29
+Jumlah Request       : 400
+Request Berhasil     : 400
+Request Gagal        : 0
+Durasi Eksperimen    : 43.68 detik
+Rata-rata Response   : 8.14 ms
+Throughput API       : 9.16 req/detik
+Rata-Rata CPU        : 5,43%
+Rata-rata Memory     : 88.8% 
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 20:50:18
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 22.02 detik
+Rata-rata Response   : 8.01 ms
+Throughput API       : 9.08 req/detik
+Rata-Rata CPU        : 3.28%
+Rata-rata Memory     : 89.5%
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 20:27:40
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 21.62 detik
+Rata-rata Response   : 7.79 ms
+Throughput API       : 9.25 req/detik
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 14:29:53
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 21.40 detik
+Rata-rata Response   : 6.71 ms
+Throughput API       : 9.34 req/detik
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 14:28:50
+Jumlah Request       : 200
+Request Berhasil     : 107
+Request Gagal        : 93
+Durasi Eksperimen    : 20.96 detik
+Rata-rata Response   : 6.39 ms
+Throughput API       : 5.11 req/detik
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 14:26:24
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 21.82 detik
+Rata-rata Response   : 6.49 ms
+Throughput API       : 9.17 req/detik
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 13:05:10
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 21.38 detik
+Rata-rata Response   : 6.54 ms
+Throughput API       : 9.35 req/detik
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 10:09:45
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 22.72 detik
+Rata-rata Response   : 11.46 ms
+Throughput API       : 8.80 req/detik
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 09:58:20
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 21.85 detik
+Rata-rata Response   : 6.95 ms
+Throughput API       : 9.15 req/detik
+--------------------------------------------
+Waktu Selesai        : 2025-06-24 09:52:36
+Jumlah Request       : 200
+Request Berhasil     : 0
+Request Gagal        : 200
+Durasi Eksperimen    : 22.02 detik
+Rata-rata Response   : 0.00 ms
+Throughput API       : 0.00 req/detik
+--------------------------------------------

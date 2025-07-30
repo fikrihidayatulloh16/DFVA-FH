@@ -1,0 +1,8 @@
+Jumlah Request       : 200
+Request Berhasil     : 200
+Request Gagal        : 0
+Durasi Eksperimen    : 241.49 detik
+Rata-rata Response   : 1106.49 ms
+Throughput API       : 0.83 req/detik
+mean memori :56.7%
+mean cpu : 12.0%

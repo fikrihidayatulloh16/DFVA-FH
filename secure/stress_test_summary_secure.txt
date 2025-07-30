@@ -1,0 +1,59 @@
+Waktu Mulai          : 2025-07-02 08:05:06
+Waktu Selesai        : 2025-07-02 08:07:21
+Jumlah Request       : 110
+Request Berhasil     : 110
+Request Gagal        : 0
+Durasi Eksperimen    : 135.98 detik
+Rata-rata Response   : 1135.37 ms
+Throughput API       : 0.81 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-07-02 07:56:04
+Waktu Selesai        : 2025-07-02 07:58:34
+Jumlah Request       : 110
+Request Berhasil     : 110
+Request Gagal        : 0
+Durasi Eksperimen    : 150.15 detik
+Rata-rata Response   : 1264.14 ms
+Throughput API       : 0.73 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-06-27 18:21:56
+Waktu Selesai        : 2025-06-27 18:22:40
+Jumlah Request       : 50
+Request Berhasil     : 5
+Request Gagal        : 45
+Durasi Eksperimen    : 43.57 detik
+Rata-rata Response   : 32.06 ms
+Throughput API       : 0.11 req/detik
+--------------------------------------------
+Waktu Mulai          : 2025-06-26 23:11:20
+Waktu Selesai        : 2025-06-26 23:23:06
+Jumlah Request       : 600
+Request Berhasil     : 543
+Request Gagal        : 57
+Durasi Eksperimen    : 706.36 detik
+Rata-rata Response   : 1082.79 ms
+Throughput API       : 0.77 req/detik
+Rata-Rata CPU        : 17.8%
+Rata-rata Memory     : 41.5%
+--------------------------------------------
+Waktu Mulai          : 2025-06-26 22:55:23
+Waktu Selesai        : 2025-06-26 23:03:10
+Jumlah Request       : 400
+Request Berhasil     : 360
+Request Gagal        : 40
+Durasi Eksperimen    : 467.50 detik
+Rata-rata Response   : 1072.36 ms
+Throughput API       : 0.77 req/detik
+Rata-Rata CPU        : 17.9%
+Rata-rata Memory     : 41.3%
+--------------------------------------------
+Waktu Mulai          : 2025-06-26 22:38:36
+Waktu Selesai        : 2025-06-26 22:42:55
+Jumlah Request       : 200
+Request Berhasil     : 178
+Request Gagal        : 22
+Durasi Eksperimen    : 258.95 detik
+Rata-rata Response   : 1178.41 ms
+Throughput API       : 0.69 req/detik
+Rata-Rata CPU        : 16.2%
+Rata-rata Memory     : 39.8%

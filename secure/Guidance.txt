@@ -1,0 +1,128 @@
+- jika mengalami masalah berikut saat uji postman khususnya yang sqli "message": "The method is not allowed for the requested URL."
+  kemungkinan menggunakan method yang salah, sepertinya yang harusnya post malah get
+
+jika error ketika memperbarui database berupa
+(venv) C:\Users\fikri\OneDrive\Dokumen\TA\Implement\DFVA-FH\database>python init_db.py        
+Traceback (most recent call last):
+  File "C:\Users\fikri\OneDrive\Dokumen\TA\Implement\DFVA-FH\database\init_db.py", line 1, in <module>
+    from app import create_app, db
+ModuleNotFoundError: No module named 'app'
+===solusi===
+ubah command jadi = python -m database.init_db (pastikan folder instance ada di root projek mkdir -p instance/)
+
+SQL Injection
+http://127.0.0.1:5000/users/search post
+Melihat semua user
+{ "search_term": "' OR '1'='1" }
+
+UNION lihat password
+{ "search_term": "' UNION SELECT id, username, password FROM user -- " }
+
+XSS
+dibash
+curl -X PUT -H "Content-Type: application/json" \
+     -d '{"description": "Halo! <img src=x onerror=alert(\"Stored_XSS_for_User_1!\")>"}' \
+     http://127.0.0.1:5000/users/1/description
+# Hasil: Harusnya {"message": "Deskripsi untuk user user1 berhasil diupdate."}
+
+update requirements
+pip list --outdated --format=freeze akan membuat daftar paket yang versinya sudah lama.
+pip install -U -r outdated.txt akan memperbarui semuanya ke versi terbaru.
+pip freeze (untuk melihat semua library dan dependencies)
+pip freeze > requirements.txt (menyimpan semua library dan dependencies)
+pipreqs . --force (yang dipakai di proyek saja + simpen ke requirements.txt)
+
+untuk masuk ke vmazure
+Microsoft Windows [Version 10.0.26100.4061]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\fikri>ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-Q query_option]
+           [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+
+C:\Users\fikri>ssh fikrihidayatulloh16@40.81.226.210
+The authenticity of host '40.81.226.210 (40.81.226.210)' can't be established.
+ED25519 key fingerprint is SHA256:Rfb7JhcrQx85aHctRhBGo91bTduGtKMTQeRim6PxJas.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '40.81.226.210' (ED25519) to the list of known hosts.
+fikrihidayatulloh16@40.81.226.210's password:
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-1028-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed May 21 09:33:53 UTC 2025
+
+  System load:  0.01              Processes:             112
+  Usage of /:   5.3% of 28.89GB   Users logged in:       0
+  Memory usage: 29%               IPv4 address for eth0: 10.0.0.4
+  Swap usage:   0%
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+fikrihidayatulloh16@FHVM:~$ htop
+fikrihidayatulloh16@FHVM:~$
+
+---------------------------------------------------
+
+token github : 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
+
+-------------------------------------------------------
+
+build docker dengan logging
+
+docker compose build --no-cache --progress=plain 2>&1 | tee build.log
+
+------------------------------------------------------
+
+dbus perlu pkg
+
+sudo apt-get update
+sudo apt-get install pkg-config
+sudo apt-get install libdbus-1-dev
+sudo apt-get install pkg-config libdbus-1-dev libglib2.0-dev
+pip install dbus-python
+install requirements
+pip install --upgrade attrs
+pip check
+
+-----------------------------------------------------------
+bersihkan docker
+
+docker system prune -af
+docker volume prune -f
+
+------------------------------------------------
+mencari teks dari files
+
+grep -r --include="*.py" "limiter = Limiter" .
+
+------------------------------------------
+jika perubahan pada share
+chmod +x compose.sh
+
+./compose.sh
