@@ -1,0 +1,121 @@
+version: '3.8'
+
+services:
+  flask-api-secure:
+    build:
+      context: ./secure
+      dockerfile: Dockerfile
+    container_name: flask-api-secure
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - monitoring
+    depends_on:
+      - redis
+    environment:
+      REDIS_HOST: redis
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./secure/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+    - '--config.file=/etc/prometheus/prometheus.yml'
+    - '--storage.tsdb.retention.time=7d'  # ✅ ini penting
+    networks:
+      - monitoring
+    restart: unless-stopped
+
+  loki:
+    image: grafana/loki:2.9.3
+    container_name: dfva-fh-loki-1
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./secure/monitoring/loki-config.yml:/etc/loki/loki-config.yml
+    networks:
+      - monitoring     # ✅ Tambahkan baris ini
+    restart: unless-stopped  # opsional, tapi disarankan
+
+
+  # grafana:
+    # image: grafana/grafana:latest
+    # container_name: grafana
+    # ports:
+      # - "3000:3000"
+    # volumes:
+      # - grafana-data:/var/lib/grafana
+      # - ./grafana.ini:/etc/grafana/grafana.ini
+    # depends_on:
+      # - prometheus
+      # - loki
+    # networks:
+      # - monitoring
+    # restart: unless-stopped
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - monitoring  # ✅ Tambahkan ini
+
+  promtail:
+    image: grafana/promtail:2.9.3
+    volumes:
+      - /var/log:/var/log
+      - /etc/machine-id:/etc/machine-id
+      - ./secure/monitoring/promtail-config.yml:/etc/promtail/promtail-config.yml
+      - /var/lib/docker/containers:/var/lib/docker/containers
+      - ./logs:/logs  # <-- ini penting, mapping folder logs ke dalam container
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - monitoring
+    command: -config.file=/etc/promtail/promtail-config.yml
+    restart: unless-stopped
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node-exporter
+    ports:
+      - "9100:9100"
+    networks:
+      - monitoring
+    restart: unless-stopped
+
+  # nginx:
+    # image: nginx:latest
+    # container_name: nginx-proxy
+    # ports:
+      # - "80:80"
+      # - "443:443"
+    # volumes:
+      # - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      # - /etc/letsencrypt:/etc/letsencrypt:ro
+    # depends_on:
+      # - flask-api-secure
+      # - grafana
+      # - prometheus
+    # networks:
+      # - monitoring
+    # restart: unless-stopped
+
+
+networks:
+  monitoring:
+    external: true
+
+volumes:
+  grafana-data:
